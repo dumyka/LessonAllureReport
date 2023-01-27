@@ -18,6 +18,6 @@ public class AllureNotSteps {
     $(linkText("selenide/selenide")).click();
 
     $("#issues-tab").click();
-    $(withText("#issue_2130_link")).shouldHave(text("Add conditions oneOfTexts, oneOfExactTexts, oneOfTextsCaseSensitive, oneOfExactTextsCaseSensitive"));
+    $("#issue_2130_link").shouldHave(text("Add conditions oneOfTexts, oneOfExactTexts, oneOfTextsCaseSensitive, oneOfExactTextsCaseSensitive"));
   }
 }
